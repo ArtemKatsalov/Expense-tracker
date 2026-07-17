@@ -42,17 +42,17 @@ python manage.py runserver
 ```
 
 ### One-by-one
-### Clone repo
+#### Clone repo
 ```
 git clone https://github.com/ArtemKatsalov/Expense-tracker.git
 ```
 
-### Set up a virtual environment:
+#### Set up a virtual environment:
 ```
 python -m venv .venv
 ```
 
-### Switch to a virtual environment in a terminal
+#### Switch to a virtual environment in a terminal
 Windows:
 ```
 .venv\Scripts\Activate
@@ -63,17 +63,17 @@ chmod +x .venv/bin/activate
 . .venv/bin/activate
 ```
 
-### Install all dependencies in an env
+#### Install all dependencies in an env
 ```
 python -m pip install -r requirements.txt
 ```
 
-### Run local server
+#### Run local server
 ```
 cd Expense-tracker\webapp
 python manage.py migrate
 python manage.py runserver
 ```
 
-### Credentials
+#### Credentials
 `admin:admin`
