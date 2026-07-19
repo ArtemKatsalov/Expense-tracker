@@ -2,6 +2,13 @@
 
 A web application for managing personal finances, tracking income and expenses, generating charts, and performing budget analysis. 
 
+## 📸 Screenshots
+<img width="1872" height="935" alt="image" src="https://github.com/user-attachments/assets/e8c1029a-20c4-429b-8061-7a87810d5680" />
+<img width="1877" height="896" alt="image" src="https://github.com/user-attachments/assets/1876a5d4-dd9d-438c-8ddc-87651379ddb5" />
+<img width="1873" height="898" alt="image" src="https://github.com/user-attachments/assets/4eebc821-8683-464a-bff9-cf8dd32bbe80" />
+
+
+
 ## 🛠 Tech Stack
 * **Backend:** Python, Django
 * **Frontend:** HTML, CSS, Bootstrap 5
@@ -35,8 +42,9 @@ python manage.py runserver
 git clone https://github.com/ArtemKatsalov/Expense-tracker.git
 python -m venv .venv
 chmod +x .venv/bin/activate
+cd Expense-tracker
 . .venv/bin/activatepython -m pip install -r requirements.txt
-cd Expense-tracker\webapp
+cd webapp
 python manage.py migrate
 python manage.py runserver
 ```
