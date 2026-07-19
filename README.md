@@ -31,8 +31,9 @@ As a co-creator of this team project, my main responsibilities included:
 git clone https://github.com/ArtemKatsalov/Expense-tracker.git
 python -m venv .venv
 .venv\Scripts\Activate
+cd Expense-tracker
 python -m pip install -r requirements.txt
-cd Expense-tracker\webapp
+cd webapp
 python manage.py migrate
 python manage.py runserver
 ```
